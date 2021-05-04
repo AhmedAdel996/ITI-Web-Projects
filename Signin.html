@@ -1,0 +1,49 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Signin.css">
+    <title>Home Page</title>
+    
+    
+    
+</head>
+<body>
+
+    <div class="main-block">
+      <h1>Sign In</h1>
+      <form action="index.html" method="get" target="_blank">
+        <hr>
+        <div class="account-type">
+          <input type="radio" value="none" id="radioOne" name="account" checked/>
+          <label for="radioOne" class="radio">Personal</label>
+          <input type="radio" value="none" id="radioTwo" name="account" />
+          <label for="radioTwo" class="radio">Company</label>
+        </div>
+        <hr>
+        <label id="icon" for="name"><i class="fas fa-envelope"><img src="imgs/man.png" style="width: 12px; height: 12px; "></i></label>
+        <input type="text" name="name" id="name" placeholder="Email" required/>
+        <label id="icon" for="name"><i class="fas fa-user"><img src="imgs/man.png" style="width: 12px; height: 12px; "></i></label>
+        <input type="text" name="name" id="name" placeholder="Name" required/>
+        <label id="icon" for="name"><i class="fas fa-unlock-alt"><img src="imgs/man.png" style="width: 12px; height: 12px; "></i></label>
+        <input type="password" name="name" id="name" placeholder="Password" required/>
+        
+        <hr>
+        <div class="gender">
+          <input type="radio" value="none" id="male" name="gender" checked/>
+          <label for="male" class="radio">Remember Me</label>
+          <input type="radio" value="none" id="female" name="gender" />
+          <label for="female" class="radio">Not</label>
+        </div>
+        <hr>
+        <div class="btn-block">
+          <p>By clicking Register, you agree on our <a href="read_more.html">Privacy Policy for Furniture Company</a>.</p>
+          <button type="submit" href="thanks.html" target="_blank">Submit</button>
+        </div>
+      </form>
+    </div>    
+    
+    
+
+</body>
+</html>
